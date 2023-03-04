@@ -7,8 +7,8 @@ Esta é uma solução para o desafio do cartão de resumo do pedido no Frontend 
 - [Visão geral](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
+- [Meu processo](#Meu-processo)
+  - [Construído com](#Construído-com)
 - [Author](#author)
 
 ### Screenshot:
