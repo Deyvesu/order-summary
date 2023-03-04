@@ -4,8 +4,7 @@
   padding: 0px;
   margin: 0px;
 
-  font-size: 16px;
-  color: hsl(223, 47%, 23%);
+  
   
   font-family: 'Red Hat Display', sans-serif;
 
@@ -13,20 +12,20 @@
 }
 body{
   background: url(./images/pattern-background-desktop.svg) no-repeat;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .main{
-  width: 375px;
   height: 100vh;
-  margin: auto;
-
+  width: 375px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  justify-content: center;
   text-align: center;
-
-  
 }
 
 .content{
@@ -84,6 +83,11 @@ body{
 .plan a{
   font-size: 14px;
   color: hsl(245, 75%, 52%);
+  font-weight: 800;
+}
+.plan a:hover{
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
 }
 
 .buttons button{
@@ -98,14 +102,20 @@ body{
 #payment{
   margin: 15px 0 10px;
   color: white;
-  background: hsl(245, 75%, 52%);
-  
-  
+  background: hsl(245, 75%, 52%); 
+  box-shadow: 0px 8px 20px -10px  black;
+}
+#payment:hover{
+  background-color: hsl(224, 23%, 55%);
 }
 #cancel{
   margin-bottom: 20px;
   color: hsl(224, 23%, 55%);
   background: none;
+  width: auto;
+}
+#cancel:hover{
+  color: hsl(223, 47%, 23%);
 }
 
 divi{
