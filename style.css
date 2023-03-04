@@ -11,7 +11,8 @@
   box-sizing: border-box;
 }
 body{
-  background: url(./images/pattern-background-desktop.svg) no-repeat;
+  background:no-repeat top url(./images/pattern-background-desktop.svg) ;
+  background-color: hsl(225, 100%, 94%);
   
   display: flex;
   justify-content: center;
@@ -130,7 +131,7 @@ divi{
 
 @media screen and (max-width: 500px) {
   body {
-    background: hsl(225, 100%, 98%);
+    background: hsl(225, 100%, 94%);
   }
 }
 
